@@ -161,3 +161,17 @@ cython_debug/
 
 .ruff_cache/
 *.zip
+
+# Local datasets and generated experiment/training artifacts
+/data/
+/artifacts/
+/checkpoints/
+/runs/
+/wandb/
+/outputs/
+
+# Local environment credentials and macOS metadata
+.env.*
+!.env.example
+!.env.sample
+.DS_Store
